@@ -7,4 +7,5 @@ This project deploys Item-Catalog project on a linux server.
   1. Created user accounts and gave them sudo access. The ability to login remotely as root was disabled.
   2. Installed requisite software needed to run the application. This included Python modules `sqlalchemy`, `oauth2client`, `flask` and `pip` for installing all the other modules mentioned before it.
   3. Installed `PostgreSQL` server.
-  4. Configured the firewall so as not to listen on all ports.
+  4. Installed Git so as to clone the project to be deployed on the server.
+  5. Configured the firewall so as not to listen on all ports.
